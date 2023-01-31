@@ -20,24 +20,24 @@ and <a href="activitydefinition.html">ActivityDefinition</a></li>
 </ul>
 
 <p>
-The Requirements Resource is focused on gathering known requirements and providing 
-traceability from solutions to the requirements they are intended to meet. 
+The Requirements Resource is focused on gathering known requirements and providing
+traceability from solutions to the requirements they are intended to meet.
 </p>
 
 <p>
 In any set of requirements, some of them may already be met by preexisting specifications,
-while others are requirements that must be fulfilled by some specification or design that 
+while others are requirements that must be fulfilled by some specification or design that
 is created with or subsequent to the requirements. For this reason, requirements can
-directly identify features of specifications that satisfy the stated requirement, but in 
+directly identify features of specifications that satisfy the stated requirement, but in
 most cases, it is expected that the specifications and designs that meet the requirements
 will provice traceability to the requirement.
 </p>
 <p>
-Each Requirements resource carries a set of statements about requirements. Each 
+Each Requirements resource carries a set of statements about requirements. Each
 statement has:
 </p>
 <ul>
- <li><b>identity</b>: Computable and humn identification of the statement</li>
+ <li><b>identity</b>: Computable and human identification of the statement</li>
  <li><b>requirement</b>: The wording of the requirement</li>
  <li><b>conformance</b>: The strength associated with the statement. The strength is almost always embedded in the language of the requirement, but this allows for filtering and a degree of automated processing</li>
  <li><b>source</b>: Source information about who was the source of the requirement</li>
@@ -49,7 +49,7 @@ statement has:
 
 <p>
 Requirements may by referenced from almost any resource by the <a href="extension-satisfies-requirement.html">Requirements Satisfied</a> extension.
-Generally, this extension will be found in the <a href="canonicalresource.html">Canonical Resources</a> but this is 
+Generally, this extension will be found in the <a href="canonicalresource.html">Canonical Resources</a> but this is
 not a hard rule.
 </p>
 
@@ -61,7 +61,7 @@ but the target of a reference does not need to be a resource at all.
 
 <p>
 The requirements resource carries minimal provenance information - the name of the publisher,
-and the source of the statements. Additional provenance information should be carried in a 
+and the source of the statements. Additional provenance information should be carried in a
 <a href="provenance.html">Provenance</a> resource.
 </p>
 
@@ -70,7 +70,7 @@ and the source of the statements. Additional provenance information should be ca
 <div>
 <h2>Background and Context</h2>
 <p>
-A number of stakeholders publishing FHIR implementation guides wish to do formal 
+A number of stakeholders publishing FHIR implementation guides wish to do formal
 requirements tracing. This resource exists for them.
 </p>
 </div>
